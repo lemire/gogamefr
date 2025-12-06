@@ -1,4 +1,4 @@
-# Jeu de Balle Rebondissante
+# Jeu de balle rebondissante
 
 Un jeu simple écrit en Go.
 
