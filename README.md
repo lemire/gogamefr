@@ -19,10 +19,12 @@ Contrôlez une raquette pour garder la balle rebondissante en jeu. Vous avez 3 v
 
 ## Comment lancer
 
-1. Assurez-vous que Go est installé (version 1.24 ou ultérieure).
+1. Assurez-vous que Go est installé (version 1.25 ou ultérieure, exigée par Ebitengine v2.10).
 2. Clonez ou téléchargez le dépôt.
 3. Ouvrez un shell dans le dossier du projet.
 4. Lancez `go run main.go` ou `go build` puis `./gogame`.
+
+**Sous Linux**, Ebitengine a besoin de quelques bibliothèques du système (graphisme et son) : installez-les en suivant les instructions de la [page d'installation d'Ebitengine pour Linux](https://ebitengine.org/en/documents/install.html?os=linux) (en anglais ; par exemple, `sudo apt install ...` sous Debian ou Ubuntu). Sous Windows et macOS, aucune installation supplémentaire n'est nécessaire.
 
 La fenêtre du jeu s'ouvrira affichant le menu de démarrage. Appuyez sur Espace pour commencer à jouer.
 
